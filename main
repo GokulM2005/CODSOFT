@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gokul's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
     <style>
         body { font-family: Arial, sans-serif; }
         header, footer { text-align: center; padding: 1em; background-color: #333; color: white; }
@@ -38,13 +39,11 @@
 
         <section class="projects">
             <h2>Projects</h2>
-            <!-- Repeat this block for each project -->
             <div class="project">
                 <img src="Project 1.jpg">
                 <h3>Digital IC</h3>
                 <p>This project displays temperature detected using a sensor in the room. The detected value of the temperature is then categorised from 0 to 9 and displayed in LED Display with the help of different ICs.</p>
             </div>
-            <!-- End project block -->
             <div class="project">
                 <img src="Project 2.webp">
                 <h3>Theft Detection Using NODEMCU</h3>
@@ -66,7 +65,6 @@
 
     <footer>
         <p>© 2024 Gokul M. All rights reserved.</p>
-        <!-- Add additional links or information here -->
     </footer>
 </body>
 </html>
